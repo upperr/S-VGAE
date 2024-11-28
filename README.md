@@ -16,7 +16,7 @@ spikingjelly 0.0.0.0.12
 
 python train_link.py --dataset Cora --encoder_layer 64 --learning_rate 0.03 --flops
 
-python train_link.py --dataset CiteSeer --encoder_layer 64 --T 3 --dropout 0.4 --learning_rate 0.015 --batch_size 256
+python train_link.py --dataset CiteSeer --encoder_layer 64 --T 3 --dropout 0.4 --learning_rate 0.015 --batch_size 256 --flops
 
 python train_generate.py --dataset MUTAG --model SGAE --flops
 
